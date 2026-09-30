@@ -87,55 +87,7 @@ class ProfileTab extends StatelessWidget {
 
                 const SizedBox(height: AppConstants.spaceXXL),
 
-                // ── معلومات الكتاب ──
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(AppConstants.spaceM),
-                  decoration: BoxDecoration(
-                    color: AppConstants.primaryColor.withValues(alpha: 0.05),
-                    borderRadius: BorderRadius.circular(AppConstants.radiusM),
-                    border: Border.all(
-                      color: AppConstants.primaryColor.withValues(alpha: 0.15),
-                    ),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          const Icon(Icons.menu_book,
-                              size: 18, color: AppConstants.primaryColor),
-                          const SizedBox(width: 8),
-                          Text('عن الكتاب',
-                              style: theme.textTheme.titleMedium?.copyWith(
-                                fontWeight: FontWeight.bold,
-                                color: AppConstants.primaryColor,
-                              )),
-                        ],
-                      ),
-                      const SizedBox(height: AppConstants.spaceS),
-                      Text(
-                        bookInfo.description,
-                        style: theme.textTheme.bodyMedium,
-                      ),
-                      const SizedBox(height: AppConstants.spaceS),
-                      Text(
-                        bookInfo.ministry,
-                        style: theme.textTheme.bodyMedium?.copyWith(
-                          fontSize: AppConstants.fontXS,
-                        ),
-                      ),
-                      Text(
-                        bookInfo.curriculumCenter,
-                        style: theme.textTheme.bodyMedium?.copyWith(
-                          fontSize: AppConstants.fontXS,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-
-                const SizedBox(height: AppConstants.spaceL),
+                
               ],
             ),
           ),
