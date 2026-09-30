@@ -1,0 +1,113 @@
+import '../../models/question.dart';
+
+const List<Question> unit2Lesson4Questions = [
+  Question(
+    number: 1,
+    question: 'إذا تقاطع خطان عند النقطة (2، 3)، فما حل المعادلتين؟',
+    options: ['س=2، ص=3', 'س=3، ص=2', 'لا يوجد حل'],
+    correctIndex: 0,
+    explanation: 'الحل = إحداثيا نقطة التقاطع = (2، 3)',
+  ),
+  Question(
+    number: 2,
+    question: 'خطان متوازيان → كم حل؟',
+    options: ['لا يوجد حل', 'حل واحد', 'حلان'],
+    correctIndex: 0,
+    explanation: 'المتوازيان لا يتقاطعان',
+  ),
+  Question(
+    number: 3,
+    question: 'خطان منطبقان → كم حل؟',
+    options: ['عدد لا نهائي', 'حل واحد', 'لا يوجد'],
+    correctIndex: 0,
+    explanation: 'المنطبقان لهما كل النقاط مشتركة',
+  ),
+  Question(
+    number: 4,
+    question: 'ص = س، ص = -س. نقطة التقاطع؟',
+    options: ['(0، 0)', '(1، 1)', '(2، 2)'],
+    correctIndex: 0,
+    explanation: 'س = -س → س=0، ص=0',
+  ),
+  Question(
+    number: 5,
+    question: 'ص = 2، ص = س. نقطة التقاطع؟',
+    options: ['(2، 2)', '(0، 2)', '(2، 0)'],
+    correctIndex: 0,
+    explanation: 'س = 2، ص = 2',
+  ),
+  Question(
+    number: 6,
+    question: 'الخطان ص = س + 1، ص = س - 1',
+    options: ['متوازيان — لا حل', 'متقاطعان', 'منطبقان'],
+    correctIndex: 0,
+    explanation: 'نفس الميل (1)، إشارة مختلفة → متوازيان',
+  ),
+  Question(
+    number: 7,
+    question: 'الخطان ص = 3س، ص = 3س',
+    options: ['منطبقان — لا نهائي', 'متقاطعان في نقطة', 'متوازيان'],
+    correctIndex: 0,
+    explanation: 'نفس المعادلة → منطبقان',
+  ),
+  Question(
+    number: 8,
+    question: 'إذا لم يتقاطع خطان، فماذا يعني؟',
+    options: ['لا يوجد حل', 'حل واحد', 'حلان'],
+    correctIndex: 0,
+    explanation: 'عدم التقاطع = لا حل',
+  ),
+  Question(
+    number: 9,
+    question: 'لرسم خط مستقيم، كم نقطة نحتاج؟',
+    options: ['نقطتان', 'نقطة واحدة', 'ثلاث نقاط'],
+    correctIndex: 0,
+    explanation: 'نقطتان تكفيان لرسم خط مستقيم',
+  ),
+  Question(
+    number: 10,
+    question: 'حل: ص = 4، ص = س',
+    options: ['س=4، ص=4', 'س=0، ص=4', 'س=4، ص=0'],
+    correctIndex: 0,
+    explanation: 'س = 4، ص = 4',
+  ),
+  Question(
+    number: 11,
+    question: 'إذا تقاطع خطان عند نقطة واحدة، فالحل:',
+    options: ['وحيد', 'لا نهائي', 'معدوم'],
+    correctIndex: 0,
+    explanation: 'التقاطع في نقطة = حل واحد',
+  ),
+  Question(
+    number: 12,
+    question: 'ص = -س + 5، ص = س + 1. نقطة التقاطع؟',
+    options: ['(2، 3)', '(1، 2)', '(3، 2)'],
+    correctIndex: 0,
+    explanation: '-س+5 = س+1 → س=2، ص=3',
+  ),
+  Question(
+    number: 13,
+    question: 'الحل البياني لمعادلتين هو:',
+    options: [
+      'إحداثيا نقطة التقاطع',
+      'ميل الخط',
+      'المسافة بين الخطين'
+    ],
+    correctIndex: 0,
+    explanation: 'الحل = نقطة التقاطع',
+  ),
+  Question(
+    number: 14,
+    question: 'الخطان ص = 5، ص = 7',
+    options: ['متوازيان — لا حل', 'متقاطعان', 'منطبقان'],
+    correctIndex: 0,
+    explanation: 'خطان أفقيان بميل = 0 → متوازيان',
+  ),
+  Question(
+    number: 15,
+    question: 'ص = 2س + 1، ص = -س + 7. نقطة التقاطع؟',
+    options: ['(2، 5)', '(1، 3)', '(3، 7)'],
+    correctIndex: 0,
+    explanation: '2س+1 = -س+7 → س=2، ص=5',
+  ),
+];
